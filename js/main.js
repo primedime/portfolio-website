@@ -4,7 +4,7 @@ document.getElementById('close-about').addEventListener('click', closeAbout);
 
 function openAbout() {
   const aboutClass = document.querySelector('.about-section');
-  aboutClass.classList.remove('hidden');
+  aboutClass.classList.toggle('hidden');
 }
 
 function closeAbout() {
